@@ -13,7 +13,7 @@
     
     
       
-        <title>Analise de tarefas - My Docs</title>
+        <title>Metas de Usabilidade - My Docs</title>
       
     
     
@@ -62,7 +62,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#analise-de-tarefas" class="md-skip">
+        <a href="#metas-de-usabilidade" class="md-skip">
           Skip to content
         </a>
       
@@ -95,7 +95,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Analise de tarefas
+              Metas de Usabilidade
             
           </span>
         </div>
@@ -236,6 +236,34 @@
               
   
   
+  
+    <li class="md-nav__item">
+      <a href="../analise_de_tarefas/" class="md-nav__link">
+        Analise de tarefas
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../guia_de_estilo/" class="md-nav__link">
+        Guia de Estilo
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
     
   
   
@@ -248,12 +276,12 @@
       
       
         <label class="md-nav__link md-nav__link--active" for="__toc">
-          Analise de tarefas
+          Metas de Usabilidade
           <span class="md-nav__icon md-icon"></span>
         </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
-        Analise de tarefas
+        Metas de Usabilidade
       </a>
       
         
@@ -279,15 +307,43 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#cnm-goms" class="md-nav__link">
-    CNM-GOMS
+  <a href="#eficacia" class="md-nav__link">
+    Eficácia
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#objetivos" class="md-nav__link">
-    Objetivos
+  <a href="#eficiencia" class="md-nav__link">
+    Eficiência
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#seguranca" class="md-nav__link">
+    Segurança
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#utilidade" class="md-nav__link">
+    Utilidade
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#learnability" class="md-nav__link">
+    Learnability
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#memorability" class="md-nav__link">
+    Memorability
   </a>
   
 </li>
@@ -310,34 +366,6 @@
   
 </nav>
       
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../guia_de_estilo/" class="md-nav__link">
-        Guia de Estilo
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../metas_de_usabilidade/" class="md-nav__link">
-        Metas de Usabilidade
-      </a>
     </li>
   
 
@@ -729,15 +757,43 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#cnm-goms" class="md-nav__link">
-    CNM-GOMS
+  <a href="#eficacia" class="md-nav__link">
+    Eficácia
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#objetivos" class="md-nav__link">
-    Objetivos
+  <a href="#eficiencia" class="md-nav__link">
+    Eficiência
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#seguranca" class="md-nav__link">
+    Segurança
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#utilidade" class="md-nav__link">
+    Utilidade
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#learnability" class="md-nav__link">
+    Learnability
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#memorability" class="md-nav__link">
+    Memorability
   </a>
   
 </li>
@@ -771,57 +827,40 @@
                   
 
 
-<h1 id="analise-de-tarefas">Analise de tarefas</h1>
+<h1 id="metas-de-usabilidade">Metas de Usabilidade</h1>
 <h2 id="introducao">Introdução</h2>
-<p>A análise de tarefas tem por objetivo, compreender sobre o trabalho dos usuários, como realizam esse trabalho e por quê realizam. Ela pode ser utilizada em diferentes momentos no desenvolvimento de um software: para a análise da situação atual (apoiada ou não por um sistema computacional), para o (re)design de um sistema computacional ou para a avaliação do resultado de uma intervenção que inclua a introdução de um (novo) sistema computacional [1].</p>
-<p>As análises de tarefas devem envolver um processo de coleta de dados responsáveis por definir objetivos dos usuários dentro da plataforma. No livro Interação Humano-Computador de Simone Diniz e Bruno Siqueira, é apresentado três dos métodos mais comuns de análise de tarefas: O Análise Hierárquica de Tarefas (HTA), GOMS e o ConcurTaskTrees.
-No presente projeto utilizaremos o GOMS.</p>
-<h2 id="cnm-goms">CNM-GOMS</h2>
-<p>O modelo GOMS (Goals, Operators, Methods, and Selection Rules) é um método para analisar o desempenho de usuários a partir do seu conhecimento sobre como realizar um tarefa em termos de objetivos, métodos, operadores e regras de seleção. O GOMS é um método amplamente utilizado por especialista em usabilidade porque produz previsões quantitativas e qualitativas de como as pessoas usarão um sistema proposto. <br/></p>
-<p>• Objetivos são estruturas simbólicas que definem um estado de coisas a ser alcançado e determinam um conjunto de métodos possíveis pelos quais isso pode ser alcançado. <br/>
-• Operadores são atos perceptivos, motores ou cognitivos elementares, cuja execução é necessária para alterar qualquer aspecto do estado mental do usuário ou para afetar o ambiente da tarefa. <br/>
-• Os métodos descrevem um procedimento para atingir um objetivo <br/>
-• Regras de seleção são necessárias quando um objetivo é tentado, pode haver mais de um método disponível para o usuário realizá-lo. <br/></p>
-<h2 id="objetivos">Objetivos</h2>
-<p>• Acessar notícias<br/></p>
-<ol>
-<li>GOAL 0: Acessar o site da Prefeitura <br/> - OP 1.1: Usar o scroll do mouse até a seção de “Notícias”. <br/> - OP 1.2: Utilizar o botão esquerdo do mouse para escolher a noticia desejada. <br/></li>
-</ol>
-<p>• Baixar edição do Diário Oficial<br/></p>
-<ol>
-<li>GOAL 0: Acessar o site da Prefeitura <br/>
-   • GOAL 1: Acessar a aba “Diário Oficial” <br/></li>
-<li>OP 1.1: Escolher uma edição e utilizar o botão esquerdo do mouse na opção “Ler mais”. <br/></li>
-<li>OP 1.2: Utilizar o botão esquerdo do mouse na opção “Baixar edição”. <br/></li>
-</ol>
-<p>• Acompanhar leis municipais sobre Covid-19 <br/></p>
-<ol>
-<li>
-<p>GOAL 0: Acessar o site da prefeitura <br/>
-   • GOAL 1: Acessar a seção de informações <br/></p>
-</li>
-<li>
-<p>OP 1.1: Usar o scroll do mouse até a seção de “Informações”. <br/></p>
-</li>
-<li>OP 1.2: Utilizar o botão esquerdo do mouse para apertar em “Leis Consolidadas”.</li>
-</ol>
-<p>• GOAL 2: Acessar a seção Covid-19 <br/></p>
-<ul>
-<li>OP 2.1: Utilizar o botão esquerdo do mouse para apertar em “COVID-19”. <br/></li>
-<li>OP 2.2: Escolher uma lei ou decreto e utilizar o botão esquerdo do mouse na opção escolhida. <br/></li>
-</ul>
-<p>• Consultar o horário de funcionamento e meios de comunicação das secretarias <br/></p>
-<ol>
-<li>GOAL 0: Acessar o site da prefeitura <br/></li>
-<li>OP 1.1: Usar o scroll do mouse até a seção de “Navegar por secretarias”. <br/></li>
-<li>OP 1.2: Encontrar na seção o ícone do setor desejado. <br/><ul>
-<li>METHOD 1.1.1: Clicar com o botão esquerdo no ícone do setor desejado.</li>
-</ul>
-</li>
-</ol>
+<p>As metas de usabilidade têm como objetivo assegurar que produtos interativos sejam fáceis de aprender, eficazes e agradáveis para o usuário. Para que esses objetivos sejam atendidos as interações estabelecidas devem ser otimizadas. [1]</p>
+<p>As metas de usabilidades, são geralmente utilizadas em formato de perguntas, sendo divididas em: <br/></p>
+<p>• Ser eficaz no uso (eficácia): quanto um produto é bom em fazer o que se espera dele. <br/>
+• Ser eficiente no uso (eficiência): maneira como um produto auxilia os usuários na realização de suas tarefas. <br/>
+• Ser segura no uso (segurança): proteger o usuário de condições perigosas e situações indesejáveis. Exemplo: Ergonomia, ações indesejadas. <br/>
+• Ter boa utilidade (utilidade): medida na qual o produto oferece o tipo certo de funcionalidade, de modo que os usuários possam fazer aquilo que precisam ou desejam. <br/>
+• Ser fácil de aprender (learnability): facilidade de aprender a usar um sistema. <br/>
+• Ser fácil de lembrar como usar (memorability): facilidade de lembrar como utilizar um sistema depois de já tê-lo aprendido. <br/></p>
+<h2 id="eficacia">Eficácia</h2>
+<p>O site permite que as pessoas aprendam, realizem seu trabalho de forma eficiente ou acessem a informação de que necessitam?</p>
+<p>• Algumas funcionalidades não são muito eficientes, como as notícias que para fazer a pesquisa é necessário olhar várias páginas para que se encontre, não apresentando nenhuma forma de busca ou filtro.</p>
+<h2 id="eficiencia">Eficiência</h2>
+<p>Os usuários conseguirão manter um alto nível de produtividade, uma vez que tenham aprendido como utilizar o site para realizar suas tarefas?</p>
+<p>• Existem aspectos que dificultam a usabilidade, podem ser listados muitos links e botões não estão funcionando, a lentidão no carregamento de algumas páginas e a dificuldade de se localizar os itens na página.</p>
+<h2 id="seguranca">Segurança</h2>
+<p>Qual é a gama de erros possíveis ao se utilizar o produto e quais as medidas que o produto permite que o usuário tome para corrigir os erros facilmente?</p>
+<p>• Um exemplo de erro que pode ser cometido é selecionar uma sessão errada no site, dado esse erro o usuário deve clicar na logo do site ou na home para voltar na página inicial, em nem todas as secretarias esses botões são funcionais.</p>
+<p>• Alguns links externos abreem a página na mesma aba, sendo necessário user o voltar do navegador.</p>
+<p>• Na sessão editais quando selecionado um edital diferente do presente na pagina inicial é necessário usar o voltar do navegador, diferente da página inicial que apresenta o edital mais recente e a opção de selecionar os mais antigos.</p>
+<h2 id="utilidade">Utilidade</h2>
+<p>O produto fornece um conjunto adequado de funções que permitam aos usuários realizar todas as suas tarefas da maneira que desejam?</p>
+<p>• Sim, porém usuários que nao possuem um dominio intuitivo ou uma habilidade de procurar pelo site, terão dificuldades em navegar no mesmo. O site peca na utilidade pois nao especifica as funções que tem, ao mesmo tempo pode existir funções que estão escondidas e que seriam necessárias.</p>
+<h2 id="learnability">Learnability</h2>
+<p>O usuário saberá como usar o produto explorando a interface e experimentando determinadas ações? Será difícil aprender todo o conjunto de funções dessa maneira?</p>
+<p>• Dependendo da situação o site tem uma capacidade de learnbility boa. Mas em alguns casos não ajuda da forma necessária, tornando dificil sua navegação.</p>
+<h2 id="memorability">Memorability</h2>
+<p>Que tipos de suporte de interface foram fornecidos com o objetivo de ajudar os usuários a lembrarem como realizar as tarefas, especialmente para operações que são utilizados com pouca frequência?</p>
+<p>• Nenhum. As informações se confundem ao meio de tanta noticia espalhada pela site, fazendo com que muitas vezes esquecemos caminhos ja tomados e nos perdemos.</p>
 <h2 id="referencias-bibliograficas">Referências Bibliográficas</h2>
 <blockquote>
-<p>[1] Barbosa, S. D. J.; Silva, B. S. Interação Humano-Computador. Rio de Janeiro: Elsevier, 2010.</p>
+<p>[1] JENNIFER PREECE &amp; YVONNE ROGERS &amp; HELEN SHARP. Design de Interação: Além da interação homem-
+computador. John Wiley e Sons. São Paulo - SP. 1ª Edição. Editora Erica, 2005</p>
 </blockquote>
 <h2 id="historico-de-versao">Historico de versão</h2>
 <table>
@@ -837,23 +876,23 @@ No presente projeto utilizaremos o GOMS.</p>
 <tbody>
 <tr>
 <td>1.0</td>
-<td>06/12</td>
-<td>Criação do documento de analise de tarefas</td>
-<td>Augusto Campos</td>
+<td>11/12</td>
+<td>Criação do documento de metas de usabilidade</td>
 <td>Bruno Seiji Kishibe</td>
+<td>Matheus Salim de Oliveira</td>
+</tr>
+<tr>
+<td>1.0</td>
+<td>11/12</td>
+<td>Adição respostas eficácia, eficiência e segurança</td>
+<td>Bruno Seiji Kishibe</td>
+<td>Matheus Salim de Oliveira</td>
 </tr>
 <tr>
 <td>1.1</td>
-<td>06/12</td>
-<td>Adição de novos objetivos</td>
-<td>Bruno Seiji Kishibe</td>
-<td>João Pedro Anacleto</td>
-</tr>
-<tr>
-<td>1.2</td>
-<td>07/12</td>
-<td>Adição das referencias bibliograficas</td>
-<td>Augusto Campos</td>
+<td>11/12</td>
+<td>Adição respostas utilidade, learnbility e memorability</td>
+<td>Matheus Salim de Oliveira</td>
 <td>Bruno Seiji Kishibe</td>
 </tr>
 </tbody>
@@ -878,7 +917,7 @@ No presente projeto utilizaremos o GOMS.</p>
     <nav class="md-footer__inner md-grid" aria-label="Footer" >
       
         
-        <a href="../Perfil_de_Usuario/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Perfil do Usuário" rel="prev">
+        <a href="../guia_de_estilo/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Guia de Estilo" rel="prev">
           <div class="md-footer__button md-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
           </div>
@@ -887,20 +926,20 @@ No presente projeto utilizaremos o GOMS.</p>
               <span class="md-footer__direction">
                 Previous
               </span>
-              Perfil do Usuário
+              Guia de Estilo
             </div>
           </div>
         </a>
       
       
         
-        <a href="../guia_de_estilo/" class="md-footer__link md-footer__link--next" aria-label="Next: Guia de Estilo" rel="next">
+        <a href="../personas/" class="md-footer__link md-footer__link--next" aria-label="Next: Personas" rel="next">
           <div class="md-footer__title">
             <div class="md-ellipsis">
               <span class="md-footer__direction">
                 Next
               </span>
-              Guia de Estilo
+              Personas
             </div>
           </div>
           <div class="md-footer__button md-icon">

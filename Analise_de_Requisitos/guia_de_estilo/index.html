@@ -13,7 +13,7 @@
     
     
       
-        <title>Analise de tarefas - My Docs</title>
+        <title>Guia de Estilo - My Docs</title>
       
     
     
@@ -62,7 +62,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#analise-de-tarefas" class="md-skip">
+        <a href="#guia-de-estilo" class="md-skip">
           Skip to content
         </a>
       
@@ -95,7 +95,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Analise de tarefas
+              Guia de Estilo
             
           </span>
         </div>
@@ -236,6 +236,20 @@
               
   
   
+  
+    <li class="md-nav__item">
+      <a href="../analise_de_tarefas/" class="md-nav__link">
+        Analise de tarefas
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
     
   
   
@@ -248,12 +262,12 @@
       
       
         <label class="md-nav__link md-nav__link--active" for="__toc">
-          Analise de tarefas
+          Guia de Estilo
           <span class="md-nav__icon md-icon"></span>
         </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
-        Analise de tarefas
+        Guia de Estilo
       </a>
       
         
@@ -272,36 +286,22 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#introducao" class="md-nav__link">
-    Introdução
+  <a href="#1-objetivos" class="md-nav__link">
+    1. Objetivos
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#cnm-goms" class="md-nav__link">
-    CNM-GOMS
+  <a href="#2-como-usar" class="md-nav__link">
+    2. Como usar
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#objetivos" class="md-nav__link">
-    Objetivos
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#referencias-bibliograficas" class="md-nav__link">
-    Referências Bibliográficas
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#historico-de-versao" class="md-nav__link">
-    Historico de versão
+  <a href="#3-como-manter" class="md-nav__link">
+    3. Como manter
   </a>
   
 </li>
@@ -310,20 +310,6 @@
   
 </nav>
       
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../guia_de_estilo/" class="md-nav__link">
-        Guia de Estilo
-      </a>
     </li>
   
 
@@ -722,36 +708,22 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#introducao" class="md-nav__link">
-    Introdução
+  <a href="#1-objetivos" class="md-nav__link">
+    1. Objetivos
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#cnm-goms" class="md-nav__link">
-    CNM-GOMS
+  <a href="#2-como-usar" class="md-nav__link">
+    2. Como usar
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#objetivos" class="md-nav__link">
-    Objetivos
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#referencias-bibliograficas" class="md-nav__link">
-    Referências Bibliográficas
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#historico-de-versao" class="md-nav__link">
-    Historico de versão
+  <a href="#3-como-manter" class="md-nav__link">
+    3. Como manter
   </a>
   
 </li>
@@ -771,64 +743,96 @@
                   
 
 
-<h1 id="analise-de-tarefas">Analise de tarefas</h1>
-<h2 id="introducao">Introdução</h2>
-<p>A análise de tarefas tem por objetivo, compreender sobre o trabalho dos usuários, como realizam esse trabalho e por quê realizam. Ela pode ser utilizada em diferentes momentos no desenvolvimento de um software: para a análise da situação atual (apoiada ou não por um sistema computacional), para o (re)design de um sistema computacional ou para a avaliação do resultado de uma intervenção que inclua a introdução de um (novo) sistema computacional [1].</p>
-<p>As análises de tarefas devem envolver um processo de coleta de dados responsáveis por definir objetivos dos usuários dentro da plataforma. No livro Interação Humano-Computador de Simone Diniz e Bruno Siqueira, é apresentado três dos métodos mais comuns de análise de tarefas: O Análise Hierárquica de Tarefas (HTA), GOMS e o ConcurTaskTrees.
-No presente projeto utilizaremos o GOMS.</p>
-<h2 id="cnm-goms">CNM-GOMS</h2>
-<p>O modelo GOMS (Goals, Operators, Methods, and Selection Rules) é um método para analisar o desempenho de usuários a partir do seu conhecimento sobre como realizar um tarefa em termos de objetivos, métodos, operadores e regras de seleção. O GOMS é um método amplamente utilizado por especialista em usabilidade porque produz previsões quantitativas e qualitativas de como as pessoas usarão um sistema proposto. <br/></p>
-<p>• Objetivos são estruturas simbólicas que definem um estado de coisas a ser alcançado e determinam um conjunto de métodos possíveis pelos quais isso pode ser alcançado. <br/>
-• Operadores são atos perceptivos, motores ou cognitivos elementares, cuja execução é necessária para alterar qualquer aspecto do estado mental do usuário ou para afetar o ambiente da tarefa. <br/>
-• Os métodos descrevem um procedimento para atingir um objetivo <br/>
-• Regras de seleção são necessárias quando um objetivo é tentado, pode haver mais de um método disponível para o usuário realizá-lo. <br/></p>
-<h2 id="objetivos">Objetivos</h2>
-<p>• Acessar notícias<br/></p>
+<h1 id="guia-de-estilo">Guia de Estilo</h1>
+<p>O guia de estilo é o documento que reúne os princípios e diretrizes adotados no projeto. Esse documento determinará os padrões que os designers deverão seguir na hora de implementar as telas. Isso permite que o projeto se mantenha alinhado com o que a esquipe de design projetou. Além disso, o guia de estilo deverá ser usado como uma ferramenta auxiliar de design, sendo ele não um conjunto de regras e sim um facilitador do trabalho e criatividade. Esta seção irá tratar exatamente desse documento, definindo os objetivos e elementos adotados pelo guia de estilo.</p>
+<h2 id="1-objetivos">1. Objetivos</h2>
+<p>O objetivo deste guia de estilo é atender os padrões de design desenvolvidos para o projeto, e permitir que os usuários tenham a melhor interação possível com a plataforma. Nosso público alvo são jovens de 19 - 24 anos que usam site do governo (por necessidade ou não), interessados em receber informações úteis da prefeitura, como servidores públicos ou moradores de Patos de Minas. Além disso, por ser um site do governo, ele deve ser inclusivo e atender o público com deficiências que dificultem o uso de aplicações web.</p>
+<h2 id="2-como-usar">2. Como usar</h2>
+<p>Em produção, este guia deverá ser usado como um molde para inserção de ideias, sempre sendo levado em consideração na hora de desenvolver o design da aplicação. Quando o projeto entrar na faze de manutenção, o guia servirá de auxílio para garantir que possíveis modificações não afetem na usabilidade do site.</p>
+<h2 id="3-como-manter">3. Como manter</h2>
+<p>O guia de estilo deverá ser atualizado à medida que novas informações sobre o usuário forem chegando, porém deve se manter sempre alinhado com os princípios estabelecidos pelo o projeto. Além disso, quando alterações forem feitas, a equipe deverá verificar se as partes dos projetos já feitas (planejadas, desenvolvidas, etc.) estão de acordo com o novo estilo estabelecido.</p>
+<h1 id="identidade-visual-do-site-da-prefeitura-de-patos-de-minas">Identidade Visual do Site da Prefeitura de Patos de Minas</h1>
+<h2 id="1-elementos-de-interface">1. Elementos de interface</h2>
+<h2 id="11-layout">1.1. Layout</h2>
+<p>O layout é a disposição espacial dos elementos, que permite definir a posição geral de cada componente que comporá o site. Neste grid <em>imagem 1</em> podemos ver como o site da prefeitura de patos de minas dispõem o seu site.</p>
+<p><img alt="Grid do site" src="../assets_analise/grid.png" /></p>
+<p><em>(Imagem 1. Grid do site da Prefeitura de Patos de Minas, autoria própria)</em></p>
+<h2 id="12-cores">1.2. Cores</h2>
+<p>O esquema de cores é a palheta que é preferível usar no site, para que a aparência estética do site permaneça no padrão escolhido. No caso do site da prefeitura de Patos, podemos observar que as cores escolhidas fazem referência ao brasão do município, onde a cor predominante é azul. Porém temos outras cores que também compõem a palheta de cores <em>imagem 1</em>. Abaixo podemos observar a classificação de prioridade das cores utilizadas pelo site.</p>
 <ol>
-<li>GOAL 0: Acessar o site da Prefeitura <br/> - OP 1.1: Usar o scroll do mouse até a seção de “Notícias”. <br/> - OP 1.2: Utilizar o botão esquerdo do mouse para escolher a noticia desejada. <br/></li>
+<li>Cores primárias: #007cba (azul), #0c71c3 (azul).</li>
+<li>Cor do fundo do site: #fff (branco).</li>
+<li>Cores secundárias: #0da0c5 (azul claro), #666 (cinza claro), #333 (cinza escuro), #edf000 (amarelo).</li>
 </ol>
-<p>• Baixar edição do Diário Oficial<br/></p>
+<p><img src="../assets_analise/colors.png" height= 300 width=600></p>
+<p><em>(imagem 1, palheta de cores do site da prefeitura de Patos de Minas, autoria própria criada utilizando o coolors).</em></p>
+<h2 id="13-tipografia">1.3. Tipografia</h2>
+<p>O site utiliza a fonte <strong>Helvetica</strong> (<em>imagem 2</em>), que é uma fonte tipográfica sem serifa (sem os traços prolongados nas pontas das letras) gratuita desenvolvida por Max Miedinger e Eduard Hoffmann, ela também conhecida como Neue Haas Grotesk. Essa fonte é amplamente utilizada pelo mundo pela sua quantidade de variações e suporte a tipografia de diversos dialetos. Sendo assim, essa é uma fonte confiável que é mais do que capaz de atender o escopo do projeto.</p>
+<p>Além do tipo de fonte, o padrão de tamanho de fonte usado no site é:</p>
 <ol>
-<li>GOAL 0: Acessar o site da Prefeitura <br/>
-   • GOAL 1: Acessar a aba “Diário Oficial” <br/></li>
-<li>OP 1.1: Escolher uma edição e utilizar o botão esquerdo do mouse na opção “Ler mais”. <br/></li>
-<li>OP 1.2: Utilizar o botão esquerdo do mouse na opção “Baixar edição”. <br/></li>
+<li>Título: <strong>Sem predefinição</strong>, sendo o tamanho ajustado para caber nos espaços fornecidos.</li>
+<li>Nome te ícones e subtítulos: <strong>16 ou 18 px</strong> (a depender do tamanho do texto).</li>
+<li>Textos no geral: <strong>14 px</strong>.</li>
 </ol>
-<p>• Acompanhar leis municipais sobre Covid-19 <br/></p>
-<ol>
-<li>
-<p>GOAL 0: Acessar o site da prefeitura <br/>
-   • GOAL 1: Acessar a seção de informações <br/></p>
-</li>
-<li>
-<p>OP 1.1: Usar o scroll do mouse até a seção de “Informações”. <br/></p>
-</li>
-<li>OP 1.2: Utilizar o botão esquerdo do mouse para apertar em “Leis Consolidadas”.</li>
-</ol>
-<p>• GOAL 2: Acessar a seção Covid-19 <br/></p>
-<ul>
-<li>OP 2.1: Utilizar o botão esquerdo do mouse para apertar em “COVID-19”. <br/></li>
-<li>OP 2.2: Escolher uma lei ou decreto e utilizar o botão esquerdo do mouse na opção escolhida. <br/></li>
-</ul>
-<p>• Consultar o horário de funcionamento e meios de comunicação das secretarias <br/></p>
-<ol>
-<li>GOAL 0: Acessar o site da prefeitura <br/></li>
-<li>OP 1.1: Usar o scroll do mouse até a seção de “Navegar por secretarias”. <br/></li>
-<li>OP 1.2: Encontrar na seção o ícone do setor desejado. <br/><ul>
-<li>METHOD 1.1.1: Clicar com o botão esquerdo no ícone do setor desejado.</li>
-</ul>
-</li>
-</ol>
-<h2 id="referencias-bibliograficas">Referências Bibliográficas</h2>
-<blockquote>
-<p>[1] Barbosa, S. D. J.; Silva, B. S. Interação Humano-Computador. Rio de Janeiro: Elsevier, 2010.</p>
-</blockquote>
-<h2 id="historico-de-versao">Historico de versão</h2>
+<p><img src="../assets_analise/helvetica.png" height= 300 width=300></p>
+<p><em>(Imagem 2, fonte tipográfica Helvetica, fonte: https://commons.wikimedia.org/wiki/File:Helvetica_Neue_typeface_weights.svg)</em></p>
+<h2 id="2-elementos-de-acao-e-interacao">2. Elementos de Ação e interação</h2>
+<h2 id="21-icones-interativos-e-botoes-de-acao">2.1. Ícones interativos e botões de ação</h2>
 <table>
 <thead>
 <tr>
-<th>Versão</th>
+<th>Ícone</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img src="../assets_analise/logo.png" height= 60 width= 100> </br> <img src="./assets_analise/logo2.png" height= 60 width= 100></td>
+<td><strong>Brasão</strong>: logo que pode variar dependendo da aba que o usuário está acessando.</td>
+</tr>
+<tr>
+<td><img src="../assets_analise/setasAmarelas.png" height= 60 width= 60></td>
+<td><strong>Setas Amarelas</strong>: setas usadas para indicar as páginas de assuntos relevantes na página principal <em>home</em>.</td>
+</tr>
+<tr>
+<td><img src="./assets_analise/pesquisa.png" height= 60 width= 350></td>
+<td><strong>Pesquisa</strong>: barra de pesquisa utilizada na página principal <em>home</em>, ela possui uma barra de texto do lado esquerdo e um botão de pesquisa do lado direito.</td>
+</tr>
+<tr>
+<td><img src="../assets_analise/iconesRotulados.png" height= 60 width= 100> </br> <img src="./assets_analise/iconesRotulados2.png" height= 60 width= 100></td>
+<td>Ícones Rotulados: ícones que são rotulados com um subtítulo, o ícone varia dependendo da referência que ele faz e sua cor varia dependendo da cor de fundo alternando de branco (quando o fundo for azul) e cinza claro (quando o fundo for branco).</td>
+</tr>
+<tr>
+<td><img src="../assets_analise/filtrar.png" height= 60 width= 100></td>
+<td><strong>Filtrar</strong>: botão para filtrar com base no que é escrito na caixa de texto ao lado, ele serve para filtrar o conteúdo de uma página</td>
+</tr>
+<tr>
+<td><img src="../assets_analise/imprimir.png" height= 60 width= 100></td>
+<td><strong>Imprimir</strong>: botão usado para imprimir o documento que a página está mostrando.</td>
+</tr>
+<tr>
+<td><img src="../assets_analise/leiaMais.png" height= 60 width= 100></td>
+<td><strong>Leia mais</strong>: botão usado para acessar o conteúdo que tem parte exposta na página principal <em>home</em>.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="3-vocabularios-e-padroes">3. Vocabulários e Padrões</h2>
+<ol>
+<li>Ler mais : utilizado como link que redireciona o usuário para outra aba com o conteúdo completo do que estava sendo visualizado.</li>
+<li>Baixar: utilizado para referenciar uma ação de download de um documento.</li>
+<li>Ver mais: utilizado para acessar mais opções de ações em determinada parte do site.</li>
+</ol>
+<h2 id="4-referencias-bibliograficas">4. Referências Bibliográficas</h2>
+<blockquote>
+<p>Barbosa, S. D. J.; Silva, B. S. da; Silveira, M. S.; Gasparini, I.; Darin, T.; Barbosa, G. D. J. (2021) Interação Humano-Computador e Experiência do usuário. Autopublicação.</p>
+<p>Site sobre Free fonts family que fala sobre a fonte Helvetica: https://freefontsfamily.com/helvetica-font-family/</p>
+</blockquote>
+<h2 id="historico-de-versoes">Histórico de Versões</h2>
+<table>
+<thead>
+<tr>
 <th>Data</th>
+<th>Versão</th>
 <th>Descrição</th>
 <th>Autor</th>
 <th>Revisor</th>
@@ -836,25 +840,11 @@ No presente projeto utilizaremos o GOMS.</p>
 </thead>
 <tbody>
 <tr>
+<td>10/12/2022</td>
 <td>1.0</td>
-<td>06/12</td>
-<td>Criação do documento de analise de tarefas</td>
-<td>Augusto Campos</td>
-<td>Bruno Seiji Kishibe</td>
-</tr>
-<tr>
-<td>1.1</td>
-<td>06/12</td>
-<td>Adição de novos objetivos</td>
-<td>Bruno Seiji Kishibe</td>
-<td>João Pedro Anacleto</td>
-</tr>
-<tr>
-<td>1.2</td>
-<td>07/12</td>
-<td>Adição das referencias bibliograficas</td>
-<td>Augusto Campos</td>
-<td>Bruno Seiji Kishibe</td>
+<td>Guia de estilo</td>
+<td>Rodrigo Wright</td>
+<td></td>
 </tr>
 </tbody>
 </table>
@@ -878,7 +868,7 @@ No presente projeto utilizaremos o GOMS.</p>
     <nav class="md-footer__inner md-grid" aria-label="Footer" >
       
         
-        <a href="../Perfil_de_Usuario/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Perfil do Usuário" rel="prev">
+        <a href="../analise_de_tarefas/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Analise de tarefas" rel="prev">
           <div class="md-footer__button md-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
           </div>
@@ -887,20 +877,20 @@ No presente projeto utilizaremos o GOMS.</p>
               <span class="md-footer__direction">
                 Previous
               </span>
-              Perfil do Usuário
+              Analise de tarefas
             </div>
           </div>
         </a>
       
       
         
-        <a href="../guia_de_estilo/" class="md-footer__link md-footer__link--next" aria-label="Next: Guia de Estilo" rel="next">
+        <a href="../metas_de_usabilidade/" class="md-footer__link md-footer__link--next" aria-label="Next: Metas de Usabilidade" rel="next">
           <div class="md-footer__title">
             <div class="md-ellipsis">
               <span class="md-footer__direction">
                 Next
               </span>
-              Guia de Estilo
+              Metas de Usabilidade
             </div>
           </div>
           <div class="md-footer__button md-icon">
