@@ -1,4 +1,4 @@
-# Principios gerais de projeto
+# Princípios gerais de projeto
 
 # Introdução
 
@@ -66,10 +66,13 @@ Figura 1 – Consistência e padrões[1].
 
 Figura 2 – Prevenção de erros[2].
 
-# Referência Bibliográfica
+## Referência Bibliográfica
 
 > Barbosa, S. D. J.; Silva, B. S. da; Silveira, M. S.; Gasparini, I.; Darin, T.; Barbosa, G. D. J. (2021) Interação HumanoComputador e Experiência do usuário. Autopublicação.
 
-| Versão | Data     | Descrição             | Autor          | Revisor             |
-| ------ | -------- | --------------------- | -------------- | ------------------- |
-| 1.0    | 11/12/22 | Descrição de Personas | Augusto campos | João Pedro Anacleto |
+# Histórico de versão
+
+| Versão | Data     | Descrição             | Autor              | Revisor             |
+| ------ | -------- | --------------------- | ------------------ | ------------------- |
+| 1.0    | 11/12/22 | Descrição de Personas | Augusto campos     | João Pedro Anacleto |
+| 1.0    | 14/12/22 | Padronizando doc.     | João Gabriel Elvas | João Pedro Anacleto |
